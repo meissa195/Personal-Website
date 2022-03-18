@@ -4,7 +4,6 @@ import { Navbar } from './components/Navbar';
 import Header from './components/Header';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
-import {BroswerRoute as Router, Routes} from "react-router-dom"
 function App() {
   return (
     <div>
