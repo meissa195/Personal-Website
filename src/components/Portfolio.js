@@ -21,6 +21,14 @@ const Portfolio = () => {
             <div className="col-md-3 d-flex flex-column align-content-center justify-content-center">
                 <h3 className='project-title'>Netflix</h3>
                 <p className="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eos ullam adipisci, dolore nisi neque?</p>
+                <div className='project__links'>
+                    <a href="">
+                        <i class="fa-solid fa-link project__link"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-github project__link"></i>
+                    </a>
+                </div>
             </div>
             <div className="col-md-3">
                 <img className='project-img img-fluid mb-2' src={HerbalProduct} alt="" />   
@@ -28,6 +36,14 @@ const Portfolio = () => {
             <div className="col-md-3 d-flex flex-column align-content-center justify-content-center">
                 <h3 className='project-title'>Humble Herbal Products</h3>
                 <p className="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eos ullam adipisci, dolore nisi neque?</p>
+                <div className='project__links'>
+                    <a href="">
+                        <i class="fa-solid fa-link project__link"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-github project__link"></i>
+                    </a>
+                </div>
             </div>
          </div>
         <div className="row mt-2 g-4 p-5">
@@ -37,6 +53,14 @@ const Portfolio = () => {
             <div className="col-md-3 d-flex flex-column align-content-center justify-content-center">
                 <h3 className='project-title'>Airbnb</h3>
                 <p className="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eos ullam adipisci, dolore nisi neque?</p>
+                <div className='project__links'>
+                    <a href="">
+                        <i class="fa-solid fa-link project__link"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-github project__link"></i>
+                    </a>
+                </div>
             </div>
             <div className="col-md-3">
                 <img className='project-img img-fluid mb-2' src={Herbalblog} alt="" />   
@@ -44,15 +68,33 @@ const Portfolio = () => {
             <div className="col-md-3 d-flex flex-column align-content-center justify-content-center">
                 <h3 className='project-title'>Humble Herbal Blog</h3>
                 <p className="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eos ullam adipisci, dolore nisi neque?</p>
+                <div className='project__links'>
+                    <a href="">
+                        <i class="fa-solid fa-link project__link"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-github project__link"></i>
+                    </a>
+                </div>
             </div>
          </div>
         <div className="row mt-2 g-4 p-5">
             <div className="col-md-3">
-                <img className='project-img img-fluid mb-2' src={SpeedTyping} alt="" />   
+               <a href="https://speed-typing-game-eissa.herokuapp.com" target="_blank">
+                    <img className='project-img img-fluid mb-2' src={SpeedTyping} alt="" />   
+               </a>
             </div>
             <div className="col-md-3 d-flex flex-column align-content-center justify-content-center">
                 <h3 className='project-title'>Typing Game</h3>
                 <p className="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eos ullam adipisci, dolore nisi neque?</p>
+                <div className='project__links'>
+                    <a href="">
+                        <i class="fa-solid fa-link project__link"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-github project__link"></i>
+                    </a>
+                </div>
             </div>
             <div className="col-md-3">
                 <img className='project-img img-fluid mb-2' src={Herbalblog} alt="" />   
@@ -60,6 +102,14 @@ const Portfolio = () => {
             <div className="col-md-3 d-flex flex-column align-content-center justify-content-center">
                 <h3 className='project-title'>Placeholder</h3>
                 <p className="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eos ullam adipisci, dolore nisi neque?</p>
+                <div className='project__links'>
+                    <a href="">
+                        <i class="fa-solid fa-link project__link"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-github project__link"></i>
+                    </a>
+                </div>
             </div>
          </div>
     </div>

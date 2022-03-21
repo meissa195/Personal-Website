@@ -10,7 +10,10 @@ export const Navbar = () => {
 
  <div className="container">
      {/* logo */}
-    <a className="navbar-brand" href="#"><span className='page-title text-secondary'>محمد</span></a>
+     {/* can i make this link go back to the top also? */}
+     <Link className='link' to ="/">
+        <a className="navbar-brand"><span className='page-title text-secondary'>محمد</span></a>
+     </Link>
     {/* navbar toggler */}
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
@@ -22,10 +25,11 @@ export const Navbar = () => {
 
             {/* Link */}
 
-          
+          <Link className='link' to="/about">
             <li className="nav-item">
-                <a className='nav-link' href="/About.html" target="_blank">about</a>
+                <a className='nav-link'>about</a>
             </li>
+          </Link>
             <li className="nav-item">
                 <a className="nav-link" href="#portfolio">portfolio</a>
             </li>
