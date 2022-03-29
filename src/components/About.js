@@ -1,15 +1,22 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
+import '../App.css'
 function About() {
   return (
+    
     <div className='about__page'>
+      <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <Link className='link about' to ="/">
+          <a className="navbar-brand"><span className='page-title text-secondary'>محمد</span></a>
+      </Link>
+      </nav>
         <div className='about__topInfo'>
             <h1>About me</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi ipsa officia vero quisquam tenetur ex sunt autem, libero eaque corrupti eos atque eveniet, neque reprehenderit, aut repudiandae assumenda facilis veniam!</p>
+            <p>My name is Mohamed Eissa. I am a highly motivated, self-starting developer seeking to build a career developing front-end applications and services. </p>
         </div>
         <div className='about__bottomInfo'>
             <h4>Skills</h4>
-            <p>HTML • CSS • JS • Bootstrap • React • NodeJS • MongoDB • Express</p>
+            <p>HTML • CSS • JS • Bootstrap • React • NodeJS • MongoDB • SQL • Mongoose • Express</p>
             <p>Java • Spring Framework</p>
         </div>
     </div>

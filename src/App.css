@@ -13,6 +13,10 @@ body {
   color: var(--primary-gray);
   min-height: 100vh;
   overflow: auto;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* navbar */
 .page-title {
@@ -21,6 +25,9 @@ body {
 .navbar-nav {
   margin-left: auto;
 }
+.navbar-toggler{
+  transform: scale(0.7);
+}
 .navbar-brand {
   max-width: 17.25rem;
   padding: 0 !important;
@@ -28,6 +35,12 @@ body {
 /* nav links */
 .link{
   text-decoration: none;
+}
+.about{
+  margin-left: 30px;
+}
+.navbar-toggler{
+  width: fit-content;
 }
 nav a.nav-link {
   font-size: 0.8rem;
@@ -48,6 +61,12 @@ nav ul li {
 }
 span {
   font-size: 25px;
+}
+@media (max-width: 576px) {
+  .navbar{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 /* Header */
 .header-container {
@@ -101,15 +120,13 @@ span {
 }
 .portfolio-title {
   text-align: center;
-  /* font-weight: lighter; */
   font-size: 1.5rem;
   text-transform: uppercase;
   max-width: 300px;
   margin: 0 auto;
   padding-bottom: 8px;
   border-bottom: 1px solid var(--primary-gray);
-  /* border-left: 2px solid var(--primary-gray); */
-  /* background-color: var(--primary-gray); */
+ 
   letter-spacing: 1px;
 }
 .projects-link {
@@ -141,6 +158,7 @@ span {
 }
 .project-description {
   font-size: 1rem;
+  padding-right: 10px;
 }
 .project-img:hover,
 .project:focus {
@@ -148,12 +166,25 @@ span {
   transform: scale(1.025);
 }
 
+@media (max-width: 586px) {
+  .row
+  .row > col{
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+@media (max-width: 1000px) {
+ .project-title {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+
 /* Footer */
 /* Footer */
-/* how to make footer stay to the bottom on about page? */
 .footer {
   text-align: center;
-  margin-top: 10px;
+  margin: 20px 0px;
   color: black;
   display: flex;
   flex-direction: column;
@@ -197,13 +228,12 @@ i:focus {
   color: #f4ae2e;
 }
 /* about page */
-/* how to hide overflow on about page? */
 .about__page {
-  padding: 50px;
+  padding: 50px 0px;
   margin: 0 auto;
   margin-top: 50px;
   text-align: center;
-  width: 50vw;
+  max-width: 70vw;
   overflow-y: hidden;
 }
 .about__topInfo > h1 {
@@ -211,4 +241,12 @@ i:focus {
 }
 .about__topInfo > p {
   margin-bottom: 30px;
+}
+@media (max-width: 375px) {
+  .about__page,
+  .about_bottomInfo{
+    max-width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }

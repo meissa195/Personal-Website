@@ -34,7 +34,7 @@ export const Navbar = () => {
                 <a className="nav-link" href="#portfolio">portfolio</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#resume">resume</a>
+                <a className="nav-link" href="https://docs.google.com/document/d/1N-8y9nqozy6wrmZGVndmVhSitY4Z7-b5jsaiWW1mo-g/edit" target="_blank">resume</a>
             </li>
             <li className="nav-item">
                 <a className="nav-link" href="#contact">contact</a>
